@@ -1,0 +1,709 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<title> HEre></title>
+<link rel="canonical" href="<?php echo $pagename ?>" />
+<link rel="shortcut icon" href="img/" alt="<?php echo @$row['alt_text_logo'] ?>" />
+<meta charset="UTF-8">
+<meta name="title" content="<?php echo $meta_title ?>">
+<meta name="DC.title" lang="en" content="<?php echo $meta_title ?>">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+<meta name="description" content="<?php echo $meta_description ?>">
+<meta name="keywords" content="<?php echo $meta_title,$keyword1 ?>, <?php echo $keyword2 ?>, <?php echo $keyword3 ?>, <?php echo $keyword4 ?>, <?php echo $keyword5 ?>, <?php echo $keyword6 ?>, <?php echo $keyword7 ?>">
+<meta name="author" content="<?php echo $keyword1 ?>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh+Sans:100,200,300,400,500,600,700,800,900&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+ <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+ <style type="text/css">
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+    .navbar a{font-size: 18px;
+        font-weight: bold;
+        color: black!important;
+    }
+    .btn-md{
+            padding: 15px 30px;
+            border-radius: 0;
+    }
+    .mbr-section-subsection{
+        color: #999999;
+     font-size: 20px;
+    margin-bottom: 21px;
+    }
+    .mbr-section-h1{
+        font-size: 46px;
+    }
+    .text-grey{
+        color: #404040;
+    }
+    .content1{
+        font-size: 20px;
+         color: #606060;
+    }
+    .bg-brown{
+        background: #eae8e4;
+    }
+    .display-4{
+        font-size:45px;
+    }
+    .font-weight-400{
+        font-weight: 400;
+    }
+    body{
+        color: #232323;
+    }
+    .content2{
+        font-size: 17px;
+    }
+    li a{
+        color: #ff5722;
+
+    }
+    ul{
+        list-style: circle;
+    }
+    a{
+        text-decoration: none!important;
+    }
+    .content3{
+        color: #696969;
+            font-size: 17px;
+    }
+    .contentImg:hover{
+     box-shadow: 0 50px 50px -25px rgb(0 0 0 / 30%);
+    transform: rotate(-2deg) scale(1.03);
+
+    }
+    .contentImg{
+        transition: all 0.3s;
+        border-radius: 30px;
+    }
+    iframe{
+        border: none!important;
+    }
+    footer{
+        background: black;
+    color: white;
+    }
+    footer a{
+         color: white!important;
+
+    }   
+    .underlineShow {
+    font-weight: inherit;
+    background-image: linear-gradient(120deg, #ffc658 0%, #ffc658 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-position: 0 90%;
+    transition: background-size 0.2s ease-in;
+}
+.allShow:hover,.underlineShow:hover{
+        background-size: 100% 100%!important;
+     
+    background-image: linear-gradient(120deg, #ffc658 0%, #ffc658 100%)!important;
+    background-repeat: no-repeat!important;
+ 
+    background-position: 0 90%!important;
+    transition: background-size 0.2s ease-in!important;
+}
+.icon-button i{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.icon-button i:hover{
+    color: #7CE0D3;
+}
+.bg-image{
+       background-image: linear-gradient(rgba(0,0,0,0.48),rgba(0,0,0,0.48)),url(//seodanmark.dk/wp-content/uploads/2019/11/SEO-Danmark-seo-bureau-roskilde.jpg);
+    background-size: auto,cover;
+}
+ 
+.section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #EAE8E4;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #3f43fd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+.special-content .row-item {
+    padding: 3rem;
+    padding-top: 3.7rem;
+    height: 100%;
+}
+.special-content .row-item.card1 {
+    background:  #eae8e4;
+}
+.special-content .row-item.card2 {
+    background:#eddad8;
+}
+ .special-content .row-item.card3 {
+    background: #c1bebe;
+}
+ .special-content .row-item.card4 {
+    background: #bcd9df;
+}
+.special-content .card-img {
+    margin-bottom: 1.7rem;
+    text-align: left;
+}
+.special-content .item-wrapper {
+    margin-bottom: 1.5rem;
+}
+.yacss-card-title {
+    margin-bottom: 1rem;
+}
+.yacss-iconfont {
+    background-color: #000000;
+    font-size: 30px;
+    height: 56px;
+    min-width: 56px;
+    padding: 0.7rem;
+    padding-top: 13px;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button p {
+        font-size: 14px;
+    }
+}
+
+.support-button i {
+    color: #3f43fd;
+    font-size: 1.25rem;
+}
+@media only screen and (max-width: 575px) {
+    .support-button i {
+        font-size: 1rem;
+    }
+}
+
+.support-button a {
+    text-transform: capitalize;
+    color: #2ecc71;
+}
+@media only screen and (max-width: 575px) {
+    .support-button a {
+        font-size: 13px;
+    }
+}
+.news-widget-border{
+    border: 1px solid #607d8b2e;
+    border-radius: 5px;
+    padding: 20px 20px;
+
+}
+.icon-button i:hover{
+       background: white;
+    color: #ffc107;
+    border-radius: 50%;
+    width: 10mm;
+    text-align: center;
+    height: 10mm;
+}
+.icon-button  i{
+     
+    
+ 
+    border-radius: 50%;
+    width: 10mm;
+    text-align: center;
+    height: 10mm;
+}
+</style>
+  
+
+</head>
+    
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-white px-md-5 pt-3 pb-3">
+  <a class="navbar-brand" href="#"><img src="https://yacss.site/wp-content/uploads/2022/03/logo-300x125.png" width="150px"  ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      
+      
+      <li class="nav-item mt-2 pr-md-4 dropdown">
+        <a class="nav-link allShow dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item mt-2 pr-md-4">
+        <a href="" class="nav-link allShow   ">Contact</a>
+      </li>
+         <li class="nav-item  ">
+      <a class="btn btn-md btn-warning display-4" href="tel:+1-434-423-4100">(434) 423-4100</a>
+         </li>
+    </ul>
+     
+  </div>
+</nav>
+ 
+<div class="container-fluid bg-image pb-5">
+    <div class="container pt-5 pb-5 ">
+        <div class="row">
+            <div class="col-lg-12 text-center ">
+                <p class="mb-0 mbr-section-subsection"><b>Keyword 1</b></p>
+                <h1 class="mbr-section-h1 text-white  ">Meta title - Pagename</h1> </div>
+            <div class="col-lg-8 pt-5">
+                <iframe width="100%" height="400" style="border-radius: 5px;" src="https://youtube.com/embed/" title="<?php echo $keyword1 ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>KEYWORD 1</iframe>
+            </div>
+            <div class="col-lg-4  pt-5">
+                <p class="content1 text-light"> Content 1 : Lynchburg Tree Service provides free quotes for professional tree maintenance from local contractors near you including:
+                    <ul>
+                        <li>Tree Trimming & Pruning</li>
+                        <li>Tree Felling & Removal</li>
+                        <li>Stump Grinding & Removal</li>
+                        <li>Tree & Land Clearing</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid py-4 bg-brown">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-5">
+                
+                <h2 class="display-4 mt-2 font-weight-400">Keyword 2
+                </h2> 
+                <ul>
+                        <li><a href="">Keyword 1</a></li>
+                        <li><a href="">Keyword 2</a></li>
+                        <li><a href="">Keyword 3</a></li>
+                        <li><a href="">Keyword 4</a></li>
+                        <li><a href="">Keyword 5</a></li>
+                        <li><a href="">Keyword 6</a></li>
+                        <li><a href="">Keyword 7</a></li>
+                    </ul>
+            </div>
+            <div class="col-lg-7 pt-5 content2">
+                <p> Content 2 : Choosing the right tree care company in Lynchburg VA is an important decision, and there are many factors to consider before hiring a professional. Some companies will offer monthly tree trimming, while others will offer specialized services. The best option is to choose a local arborist, who will come to your property and provide you with expert advice and assistance. A reputable tree care company will have years of experience and will have access to the necessary permits and insurance. Choosing the right tree care company in Lynchburg VA will require some research. Before you hire a company, make sure you ask them if they have proper liability and workers compensation insurance. This is crucial to protect you from injury, and will help prevent damages from occurring. If an arborist is not insured, you could be held liable for injuries caused by the work. A lack of insurance could also mean the company is not covered in case of an accident. The company's employees may also cause damage to your property or surrounding structures if they are not properly trained and insured. You should also ask whether the Lynchburg tree care company has insurance coverage. While most tree services in Lynchburg are insured, you should make sure that they have the proper license and insurance to perform work on your property. You should also ask for an estimate before the work begins. You should be able to see how much the cost will be before hiring a service. However, if you're unsure about how much it will cost, it's always a good idea to get a free quote from multiple companies. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container news-widget py-5">
+            <div class="row">
+         <div class="col-md-12 item-wrapper mb-3 news-widget-border">
+            <div class="row-item d-flex card1 align-left">
+                <div>
+                <a href="" class="text-dark"><h4 class="yacss-fonts-style yacss-card-title yacss-black yacss-bold display-5">Canada police hunt remaining suspect in stabbing attacks</h4></a>
+                <p class="yacss-text yacss-fonts-style mb-0 display-7">Special Content 1: Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. Leo in vitae turpis massa sed elementum.</p>
+                    </div>
+                <img style="border-radius: 10px;" referrerpolicy="no-referrer" src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HUWWFKBNNEI63PGGBB2LE2XCSY.jpg&amp;" width="150px">
+            </div>
+            <p class="mb-0 mt-4 text-muted">Posted by <i>sdf</i> on 2022-08-25</p>
+            </div>
+
+              
+
+</div>
+
+</div>
+
+<div class="container special-content pt-5">
+        
+        <div class="row align-left">
+            
+            <div class="col-md-6 item-wrapper">
+            <div class="row-item card1 align-left">
+                <div class="card-img  yacss-white">
+                    <span class="yacss-iconfont  text-center fa fa-pencil">
+                         
+                    </span>
+                </div>
+                <h4 class="yacss-fonts-style yacss-card-title yacss-black yacss-bold display-5">Special Keyword 1</h4>
+                <p class="yacss-text yacss-fonts-style mb-0 display-7">Special Content 1: Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. Leo in vitae turpis massa sed elementum.</p>
+                
+            </div>
+            </div>
+
+             <div class="col-md-6 item-wrapper">
+            <div class="row-item card2">
+                <div class="card-img align-left yacss-white">
+                      <span class="yacss-iconfont  text-center fa fa-refresh">
+                         
+                    </span>
+                </div>
+                <h4 class="yacss-fonts-style yacss-card-title yacss-black yacss-bold display-5">Special Keyword 2</h4>
+                <p class="yacss-text yacss-fonts-style mb-0 display-7">Special Content 2: Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&nbsp;</p>
+           </div>
+            </div>
+
+            <div class="col-md-6 item-wrapper">
+            <div class="row-item card3">
+                <div class="card-img align-left yacss-white">
+                     <span class="yacss-iconfont  text-center fa fa-thumbs-up">
+                         
+                    </span>
+                </div>
+                <h4 class="yacss-fonts-style yacss-card-title yacss-black yacss-bold display-5">Special Keyword 3</h4>
+                <p class="yacss-text yacss-fonts-style mb-0 display-7">Special Content 3: Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. Leo in vitae turpis massa sed elementum.<br></p>
+              
+            </div>
+            </div>
+
+            <div class="col-md-6 item-wrapper">
+            <div class="row-item card4">
+                <div class="card-img align-left yacss-white">
+                    <span class="yacss-iconfont  text-center fa fa-picture-o">
+                         
+                    </span>
+                </div>
+                <h4 class="yacss-fonts-style yacss-card-title yacss-black yacss-bold display-5">Special Keyword 4</h4>
+                <p class="yacss-text yacss-fonts-style mb-0 display-7">Special Content 4: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. Leo in vitae turpis massa sed elementum.</p>
+                
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
+<div class="container-fluid py-4 bg-white">
+    <div class="container py-5">
+        <div class="row">
+          
+            <div class="col-lg-6 pt-5 ">
+                 <h2 class="display-4 mt-2 font-weight-400">Keyword 3
+                </h2>
+                <p class="content3"> Content 3 : A Lynchburg tree trimming service can help you maintain and repair your trees. While most trees do not need much care, they do need time and effort to look their best. The amount of maintenance a tree needs depends on its species and the season. In most cases, trees don't require too much maintenance, but you should consider what kind of tree you have. Deciduous trees lose their leaves during the fall, which will make your yard a mess. Evergreen trees, on the other hand, shed their fruits, needles, and petals all year round.
+
+For most trees, pruning is not necessary, and you can save time and money by doing it yourself. But if your tree is overgrown, the only option is to get rid of it. A Lynchburg tree trimming service can help you remove it safely, and they are familiar with the local laws regarding tree removal. For instance, they can take down any dead or dying trees. And because they know about the laws in Lynchburg, they will also be familiar with any regulations pertaining to the removal of trees.
+
+If you're looking for an affordable and professional Lynchburg tree service, Lynchburg Tree Service is the place to go. They offer residential and commercial clients personalized tree care services. This family-owned business has been around for over 15 years, and they are proud to serve the community. They specialize in general trimming and tree removal, as well as storm damage clean up. You can even call them if you need emergency tree removal services. </p>
+            </div>
+              <div class="col-lg-6    pt-5">
+                <img class="w-100 contentImg" src="https://storage.googleapis.com/lynchburgtreeremoval/assets/images/tree-trimming-pruning-lynchburg-632x650.jpeg" alt="Lynchburg Tree Trimming and Pruning">
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid py-4 bg-brown">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-5">
+                 
+                <h2 class="display-4 mt-2 font-weight-400">Keyword 4
+                </h2> 
+                
+            </div>
+            <div class="col-lg-7 pt-5 content2">
+                <p>Content 4 :  The best time to remove a tree in Lynchburg depends on the species and age of the tree. An arborist in Lynchburg will be able to help you determine the optimal time. The best time to remove a tree is early spring. Experts in the field use a number of techniques to safely and easily remove your tree. For example, they may use a crane to safely climb up the tree and cut it up in smaller pieces.
+
+If a tree is dead, dying, or showing signs of decay, you may need to call hazardous tree removal services. This is necessary to protect property and the environment. If you don't, it could result in damages, such as electrical damage, or even death. If the damage is too severe, you can hire a professional to safely remove the hazardous tree. While it can be tempting to try to remove it yourself, it's important to remember that removing a hazardous one requires specialized equipment, refined techniques, and highly qualified arborists.
+
+A certified professional will make sure the job is done right the first time. A trained arborist will evaluate the hazards posed by trees and identify the ones that need to be removed. The trained staff will also make sure only the strongest and healthiest plants are left behind. They will make sure your property is clean after the project. These services are not only safe but also cost-effective. You should not wait any longer before calling a professional.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid py-4 bg-white">
+    <div class="container py-5">
+        <div class="row">
+          
+            <div class="col-lg-6 pt-5 ">
+                 <h2 class="display-4 mt-2 font-weight-400">Keyword 5
+                </h2>
+                <p class="content3"> Content 5 : An ISA certified arborist is a tree care professional that can assess the overall health of your trees. In addition to this, the arborist will be able to help you determine which types of trees are best for your yard. They will also consider the space available to grow, the neighbors' trees, and any threats to your trees from diseases, insects, and weather. If your tree is too large or is too tall, an arborist can give you recommendations for what to plant in its place.
+
+Cabling and Bracing
+Apart from routine pruning and tree planting, professional tree care companies offer other services as well. For example, they may recommend installing cabling and bracing hardware for support of weak branches, such as stakes or metal stakes.
+
+Insect and Disease Management
+A Lynchburg tree care expert is trained to recognize the early warning signs of rot, insect infestation, and decay. Preventive action is a great way to save your tree and protect your property from potential damage. They also perform injected chemical treatments to combat any insects or diseases. These treatments involve spraying, which is the most common method of treatment.
+
+Tree Fertilization and Soil Care
+A Lynchburg arborist can also help you to fertilize and maintain your soil in a way that will make it more conducive for healthy growth. Additionally, the experts at Lynchburg Tree Services can help minimize the risks of flooding and erosion.</p>
+            </div>
+              <div class="col-lg-6    pt-5">
+                <img class="w-100 contentImg" src="https://storage.googleapis.com/lynchburgtreeremoval/assets/images/arborist-tree-care-and-maintenance-454x520.jpeg" alt="Lynchburg Tree Trimming and Pruning">
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid py-4 bg-brown">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-5">
+               
+                <h2 class="display-4 mt-2 font-weight-400">Keyword 6
+                </h2> 
+                
+            </div>
+            <div class="col-lg-7 pt-5 content2">
+                <p> Content 6 : In Lynchburg, tree stump removal services will charge from $250 to $350 per stump. The cost will increase if the tree is large or requires additional work, such as removing multiple trees. Additionally, make sure that the price you are quoted includes the cost of clearing up debris.
+
+You should always ask for a free estimate before deciding on a particular company. Most companies will offer you a free quote before starting the job, so make sure to shop around for the best price.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid py-4 bg-white">
+    <div class="container py-5">
+        <div class="row">
+          
+            <div class="col-lg-6 pt-5 ">
+                 <h2 class="display-4 mt-2 font-weight-400">Keyword 7
+                </h2>
+                <p class="content3">Content 7 : Land clearing is another popular service offered by professional tree removal services in Lynchburg. This involves removing vegetation from undeveloped property and can be performed for several reasons. Some homeowners might enjoy the lush grassy areas that are left in their yard, while others may wish to build patios or decks.
+
+Commercial land clearing is often necessary for building a parking lot, landscaping, or a new structure. For any reason, professional tree removal services in Lynchburg are the right choice for you.
+
+Forestry mulching equipment are large tank-like machines that uses rotary drums with teeth to shred vegetation. Some machines are also equipped with steel chippers, which are loaded with blades for shredding vegetation. Typically, these machines operate independently, but some are designed for a specific application.
+
+Other forestry mulchers should be attached to farm equipment or tracked equipment. The heavy-duty forestry mulchers can easily clear acres of vegetation in a single day. The amount of time required to clear land will depend on the terrain, the density of outgrowth, and the type of regrowth.</p>
+            </div>
+              <div class="col-lg-6    pt-5">
+                <img class="w-100 contentImg" src="https://storage.googleapis.com/lynchburgtreeremoval/assets/images/land-clearing-454x520.jpeg" alt="Lynchburg Tree Trimming and Pruning">
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="faq_area section_padding_130" id="faq">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <!-- Section Heading-->
+                <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h3><span>Frequently </span> Asked Questions</h3>
+                 
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <!-- FAQ Area-->
+            <div class="col-12 col-sm-10 col-lg-8">
+                <div class="accordion faq-accordian" id="faqAccordion">
+                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="card-header" id="headingOne">
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How can I install this app?<span class="lni-chevron-up"></span></h6>
+                        </div>
+                        <div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere deserunt sint animi sapiente vitae suscipit.</p>
+                                <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="card-header" id="headingTwo">
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">The apps isn't installing?<span class="lni-chevron-up"></span></h6>
+                        </div>
+                        <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere deserunt sint animi sapiente vitae suscipit.</p>
+                                <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="card-header" id="headingThree">
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Contact form isn't working?<span class="lni-chevron-up"></span></h6>
+                        </div>
+                        <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere deserunt sint animi sapiente vitae suscipit.</p>
+                                <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Support Button-->
+             
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container px-0">
+
+<?php if($row['twittermomenturl']!=''){ ?>
+<a class="twitter-moment" href="<?php echo $row['twittermomenturl'] ?> ">SEO Danmark på Amazon</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<?php }?>
+</div>
+
+
+<div class="container-fluid px-0">
+
+ <iframe src="https://www.google.com/maps/d/embed?mid=1QdfA3DTAM_XKDQWZgDwHNrswNFv_FQ6s&ehbc=2E312F" width="100%" height="480"><?php echo $keyword1 ?></iframe>     
+</div>
+
+
+
+  
+<footer>
+    <div class="container py-4 pt-5" style="max-width: 1400px;">
+        <div class="row">
+  <div class="col-lg-3">
+ 
+         <p>PHONE : 123123123</p>
+      
+      <p>EMAIL : huzaifaahmed34@gmail.com</p>
+     
+     <p>ADDRESS : 12312 ,Pakistans</p>
+ 
+ 
+     
+      <p>Company Website : <a  class="underlineShow" href="https://www.huzmark.tech">www.huzmark.tech</a></p>
+     
+    
+       </div>
+       
+       
+<div class="col-lg-3"><p class="sub">USEFULL LINKS</p>
+<p><a href="" class="underlineShow" target="_blank">Service 1</a></p>
+<p><a href="" class="underlineShow" target="_blank">Service 2</a></p>
+<p><a href="" class="underlineShow" target="_blank">Service 3</a></p>
+<p><a href="" class="underlineShow" target="_blank">Service 4</a></p>
+<p><a href="" class="underlineShow" target="_blank">Service 5</a></p>
+</div>
+
+ 
+<div class="col-lg-3">
+<p class="sub">LATEST BLOGPOSTS</p>
+<p><a href=" " class="underlineShow" target="_blank">Service 1</a></p>
+<p><a href=" " class="underlineShow" target="_blank">Service 2</a></p>
+<p><a href=" " class="underlineShow" target="_blank">Service 3</a></p>
+
+ 
+<p><a class="underlineShow" href="sitemap.html" >Sitemap</a></p>
+ 
+</div>
+
+ 
+<div class="col-lg-3">
+            <div class="social">
+                <p class="sub">Follow us</p>
+             
+                <a href=" " class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                   
+                        
+                <a href="" class="icon-button pinterest"><i class="fa fa-linkedin"></i><span></span></a>
+                  
+                <a href="" class="icon-button google-plus"><i class="fa fa-instagram"></i><span></span></a>
+                   
+            <a href="" class="icon-button youtube"><i class="fa fa-youtube"></i><span></span></a>
+             
+                <a href="" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
+                
+                         
+                    <a href="" class="icon-button tumblr"><i class="fa fa-tumblr"></i><span></span></a>                      
+
+            </div>
+    </div>
+</div>
+    </div>
+    
+    
+    </footer>
+
+</body>
+
+</html>
