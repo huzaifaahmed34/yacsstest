@@ -6,30 +6,30 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
      <url>
                  <loc>test.html</loc>
-                 <lastmod>2023-06-07T20:41:12+02:00</lastmod>
+                 <lastmod>2023-06-07T20:42:29+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>te23.html</loc>
-                 <lastmod>2023-06-07T20:41:12+02:00</lastmod>
+                 <lastmod>2023-06-07T20:42:29+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>privacy-policy.html</loc>
-                 <lastmod>2023-06-07T20:41:12+02:00</lastmod>
+                 <lastmod>2023-06-07T20:42:29+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>feed.xml</loc>
-                 <lastmod>2023-06-07T20:41:12+02:00</lastmod>
+                 <lastmod>2023-06-07T20:42:29+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.xml</loc>
-                 <lastmod>2023-06-07T20:41:12+02:00</lastmod>
+                 <lastmod>2023-06-07T20:42:29+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.html</loc>
-                 <lastmod>2023-06-07T20:41:12+02:00</lastmod>
+                 <lastmod>2023-06-07T20:42:29+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>about-us.html</loc>
-                 <lastmod>2023-06-07T20:41:12+02:00</lastmod>
+                 <lastmod>2023-06-07T20:42:29+02:00</lastmod>
                  <priority>0.80</priority>
                </url></urlset>
