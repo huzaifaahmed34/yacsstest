@@ -115,7 +115,7 @@ te23, , , , , , ">
         border: none!important;
     }
      footer{
-        background: #101010;
+        background: #0a0a0a;
     color: #ffffff;
     }
     footer a{
