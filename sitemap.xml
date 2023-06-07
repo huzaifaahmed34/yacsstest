@@ -6,38 +6,38 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
      <url>
                  <loc>news.html</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>news/test.html</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>index.html</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>waga.html</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>privacy-policy.html</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.html</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.xml</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>about-us.html</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>feed.xml</loc>
-                 <lastmod>2023-06-07T21:34:35+02:00</lastmod>
+                 <lastmod>2023-06-07T21:36:24+02:00</lastmod>
                  <priority>0.80</priority>
                </url></urlset>
