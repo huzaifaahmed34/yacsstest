@@ -5,39 +5,31 @@
           xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
      <url>
-                 <loc>index.html</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
+                 <loc>test.html</loc>
+                 <lastmod>2023-06-07T19:54:22+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>waga.html</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news.html</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news/test.html</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
+                 <loc>te23.html</loc>
+                 <lastmod>2023-06-07T19:54:22+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>privacy-policy.html</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
+                 <lastmod>2023-06-07T19:54:22+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>feed.xml</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
+                 <lastmod>2023-06-07T19:54:22+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.xml</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
+                 <lastmod>2023-06-07T19:54:22+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.html</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
+                 <lastmod>2023-06-07T19:54:22+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>about-us.html</loc>
-                 <lastmod>2023-06-07T19:45:25+02:00</lastmod>
+                 <lastmod>2023-06-07T19:54:22+02:00</lastmod>
                  <priority>0.80</priority>
                </url></urlset>
