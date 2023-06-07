@@ -5,39 +5,31 @@
           xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
      <url>
-                 <loc>news.html</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
+                 <loc>https://github.com/huzaifaahmed34/yacsstest/blob/main/index.html</loc>
+                 <lastmod>2023-06-07T22:08:03+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>news/test.html</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
+                 <loc>https://github.com/huzaifaahmed34/yacsstest/blob/main/waga.html</loc>
+                 <lastmod>2023-06-07T22:08:03+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>index.html</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
+                 <loc>https://github.com/huzaifaahmed34/yacsstest/blob/main/privacy-policy.html</loc>
+                 <lastmod>2023-06-07T22:08:03+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>waga.html</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
+                 <loc>https://github.com/huzaifaahmed34/yacsstest/blob/main/sitemap.html</loc>
+                 <lastmod>2023-06-07T22:08:03+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>privacy-policy.html</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
+                 <loc>https://github.com/huzaifaahmed34/yacsstest/blob/main/sitemap.xml</loc>
+                 <lastmod>2023-06-07T22:08:03+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>sitemap.html</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
+                 <loc>https://github.com/huzaifaahmed34/yacsstest/blob/main/feed.xml</loc>
+                 <lastmod>2023-06-07T22:08:03+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>sitemap.xml</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>about-us.html</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>feed.xml</loc>
-                 <lastmod>2023-06-07T21:36:59+02:00</lastmod>
+                 <loc>https://github.com/huzaifaahmed34/yacsstest/blob/main/about-us.html</loc>
+                 <lastmod>2023-06-07T22:08:03+02:00</lastmod>
                  <priority>0.80</priority>
                </url></urlset>
