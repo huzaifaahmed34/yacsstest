@@ -5,191 +5,31 @@
           xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
      <url>
-                 <loc>index.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
+                 <loc>4.html</loc>
+                 <lastmod>2023-09-27T12:06:42+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
-                 <loc>keyword-optimization.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>content-optimization.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>backlink-building.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>technical-seo.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>local-seo.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>mobile-seo.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>off-page-seo.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>keyword-research.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>on-page-optimization.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>link-building.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>content-marketing.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>technical-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>local-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>technical-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>keyword-research-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>link-building-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>on-page-seo.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>technical-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>content-optimization-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>google-algorithm-updates.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>local-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>keyword-research-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>content-optimization-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>link-building-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>technical-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>local-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>mobile-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>keyword-research-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>link-building-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>content-optimization-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>keyword-research-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>technical-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>local-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>mobile-seo-2.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news/what-is-seo-and-how-can-it-help-your-business.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news/what-is-the-secret-to-high-ranking-seo-results.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news/how-to-unlock-the-potential-of-seo-and-supercharge-your-websites-performance.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news/how-to-instantly-boost-your-visibility-online-with-proven-seo-strategies.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news/keyword-research-understanding-the-basics-and-advanced-techniques.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
-                 <priority>0.80</priority>
-               </url> <url>
-                 <loc>news/technical-seo-strategies-for-improved-rankings.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
+                 <loc>3.html</loc>
+                 <lastmod>2023-09-27T12:06:42+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>privacy-policy.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
+                 <lastmod>2023-09-27T12:06:42+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>feed.xml</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
+                 <lastmod>2023-09-27T12:06:42+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.xml</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
+                 <lastmod>2023-09-27T12:06:42+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>sitemap.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
+                 <lastmod>2023-09-27T12:06:42+02:00</lastmod>
                  <priority>0.80</priority>
                </url> <url>
                  <loc>about-us.html</loc>
-                 <lastmod>2023-06-19T10:50:54+00:00</lastmod>
+                 <lastmod>2023-09-27T12:06:42+02:00</lastmod>
                  <priority>0.80</priority>
                </url></urlset>
